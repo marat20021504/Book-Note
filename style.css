@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form .middle {
+  width: 100%;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+
+.form .middle input {
+  height: 40px;
+  border: 2px solid #4a4aa0;
+  border-radius: 10px;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+}
+
+.form .middle button {
+  border: 1px solid #113A7E;
+  padding: 5px;
+  font-size: 20px;
+  background-color: transparent;
+  border-radius: 10px;
+  width: 100%;
+  color: #113A7E;
+}
+
+.form .middle button:hover {
+  background-color: #113A7E;
+  color: white;
+  border: 1px solid transparent;
+}
+
+.form .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 0 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form .top img {
+  width: 80px;
+  position: relative;
+  left: -85px;
+}
+
+.form ol {
+  width: 100%;
+  position: relative;
+  background-color: #e7d9d9;
+  padding: 12px;
+}
+/*# sourceMappingURL=style.css.map */
