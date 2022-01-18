@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+form {
+  padding: 20px;
+}
+
+form input {
+  display: block;
+  margin-top: 20px;
+  padding: 10px;
+  width: 400px;
+  background: #E5E5E5;
+  border: 0;
+  border: 1px solid #000000;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+form .input-checkbox {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 250px;
+}
+
+form .input-checkbox input {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  width: 20px;
+}
+
+form #btn {
+  margin-top: 20px;
+  width: 400px;
+  padding: 10px;
+  font-size: 15px;
+  background: #17A3A3;
+  border-radius: 5px;
+  color: white;
+  border: none;
+}
+
+table {
+  margin: 20px;
+  border-collapse: collapse;
+}
+
+table thead {
+  border: 1px solid black;
+}
+
+table thead tr {
+  border: 1px solid black;
+}
+
+table thead tr th {
+  border: 1px solid black;
+  padding: 10px 29px;
+}
+
+table tbody td {
+  border: 1px solid black;
+  padding: 10px 29px;
+}
+/*# sourceMappingURL=table.css.map */
